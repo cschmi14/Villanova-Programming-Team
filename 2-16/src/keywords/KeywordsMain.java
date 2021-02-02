@@ -12,10 +12,12 @@ public class KeywordsMain {
 		
 		String word = "";
 		
+		scan.nextLine();
+		
 		for (int i = 0; i < n; i++) {
-			word = scan.next();
+			word = scan.nextLine();
 			word = word.toLowerCase();
-			word = word.replace('-', ' ');
+			word = word.replace(' ', '-');
 			words.add(word);
 		}
 		
