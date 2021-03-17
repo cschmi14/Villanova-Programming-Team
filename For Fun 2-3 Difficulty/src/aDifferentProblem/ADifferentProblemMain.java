@@ -16,6 +16,7 @@ public class ADifferentProblemMain {
 			c = Math.abs(c);
 			System.out.println(c);
 		}
+		scan.close();
 		
 	}
 	
