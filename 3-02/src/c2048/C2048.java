@@ -1,5 +1,5 @@
 
-package temp;
+package c2048;
 import java.util.Scanner;
 public class C2048 {
 	
